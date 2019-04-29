@@ -1,0 +1,136 @@
+#title {
+	/*text-align: center;*/
+  /*vertical-align: text-top;*/
+  position: absolute;
+  top: 1px;
+  right: 40%;
+}
+
+#description {
+  position: absolute;
+	text-align:center;
+  top: 55px;
+  left: 20%;
+}
+
+.row1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#lab7 {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	cursor:pointer;
+}
+
+#lab8 {
+	position: absolute;
+	top: 100px;
+	left: 900px;
+	cursor:pointer;
+}
+
+#lab9 {
+	position: absolute;
+	top:400px;
+	left: 100px;
+	cursor:pointer;
+}
+
+#lab10 {
+	position:absolute;
+	top: 400px;
+	left: 900px;
+	cursor:pointer;
+}
+
+/*https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering*/
+.lab7description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+#lab7:hover .lab7description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lab8description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background: rgba(255, 0, 0, 0.2);*/
+  background-color: #ffa500;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+#lab8:hover .lab8description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lab9description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background: rgba(255, 0, 0, 0.6);*/
+  background-color: #800000;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+#lab9:hover .lab9description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.lab10description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*background: rgba(255, 0, 9, 0.4);*/
+  background-color: rgb(0,0,255);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+#lab10:hover .lab10description {
+  visibility: visible;
+  opacity: 1;
+}

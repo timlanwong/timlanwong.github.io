@@ -1,0 +1,164 @@
+#title {
+	/*text-align: center;*/
+  /*vertical-align: text-top;*/
+  position: absolute;
+  top: 1px;
+  right: 40%;
+}
+
+
+#pictures {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 680px;
+    margin: auto;
+    text-align: center;
+}
+#pictures img {
+    width: 200px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+#pictures img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.hidden {
+    display: none;
+}
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.lightbox img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.lightbox .caption {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#anime-container {
+	overflow: hidden;
+	position: relative;
+	width: 500px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+#selection-container {
+	/*position: relative;
+	text-align: center;
+	top: 30px;
+	padding: 10px;*/
+	/*display:flex;*/
+	/*https://stackoverflow.com/questions/17419933/align-3-images-in-same-row-with-equal-spaces*/
+	/*justify-content: space-between; 
+	position: absolute;*/
+	/*top: 15px;
+	left: 400px;
+    max-width: 10%;
+    max-height: 10%;*/
+   /* bottom: 50px;
+    right: 350px;
+}*/
+
+/*.picture-selection {
+	cursor: pointer;
+	height: 100px;
+	margin: 10px;
+}
+
+.picture-selection:hover {
+	opacity: 0.6;
+}
+
+#body {
+	position: absolute;
+	height: 300px;
+	top: 200px;
+	left: 110px;
+}
+
+#p1 {
+	left: 95px;
+	top: 190px;
+	height: 400px;
+}
+
+#p2 {
+	top: 220px;
+	height: 370px;
+	left: 80px;
+}
+
+#p3 {
+	height: 380px;
+	top: 210px;
+	left: 95px;
+}
+
+.button {
+	position: absolute;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: rgb(254, 255, 252);
+	background: rgb(255, 84, 94);
+	padding: 10px;
+	letter-spacing: 3px;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.button:hover {
+	cursor: pointer;
+	background:rgb(255, 44, 54);
+	transform: rotate(-5deg);
+}
+
+#remove-button {
+	right: 20%;
+	bottom: 40%;
+}*/*/
