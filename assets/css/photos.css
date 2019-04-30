@@ -57,6 +57,10 @@
     border-bottom-left-radius: 5px;
 }
 
+#pictures img {
+	height: 170px;
+	width: 170px;
+}
 
 
 
