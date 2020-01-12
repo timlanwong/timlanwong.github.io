@@ -24,18 +24,18 @@
 }*/
 
 #lab7 {
-	/*position: relative;
+	position: relative;
 	width: 400px;
 	margin: auto;
 	line-height: 1.5;
 	left: 300px;
-*/
-	position: absolute;
+
+	/*position: absolute;
 	width: 400px;
 	margin: auto;
 	line-height: 1.5;
 	left: 900px;
-	top: 60px;
+	top: 60px;*/
 }
 
 .lab7description {
