@@ -13,39 +13,86 @@
   left: 20%;
 }
 
-/*.row1 {
-	display: flex;
+/*.CP101 {
+	margin: 50px;
+	display: flex-container;
 	justify-content: space-between;
 }
 
-.row2 {
+.CP101Descriptions {
+	margin: 50px;
+	padding: 20px;
+	display: flex-container;
+	justify-content: space-between;
+}*/
+
+/*.row2 {
 	display: flex;
 	justify-content: space-between;
 }*/
 
-#lab7 {
-	position: relative;
+/*#lab7 {*/
+	/*position: relative;
 	width: 400px;
 	margin: auto;
 	line-height: 1.5;
-	left: 300px;
+	left: 300px;*/
 
-	/*position: absolute;
-	width: 400px;
-	margin: auto;
-	line-height: 1.5;
-	left: 900px;
-	top: 60px;*/
-}
+	/*position: relative;*/
+	/*width: 400px;*/
+	/*margin: auto;*/
+	/*line-height: 1.5;*/
+	/*left: 50px;*/
+	/*top: 90px;*/
+/*}*/
 
-.lab7description {
+/*.lab7description {
 	position: absolute;
 	width: 400px;
 	margin: auto;
 	line-height: 1.5;
 	left: 900px;
 	top: 60px;
-}
+}*/
+
+/*#lab8 {*/
+	/*position: relative;
+	width: 400px;
+	margin: auto;
+	line-height: 1.5;
+	left: 300px;*/
+
+	/*position: relative;
+	width: 400px;*/
+	/*margin: auto;*/
+	/*line-height: 1.5;
+	left: 50px;
+	top: 200px;*/
+/*}*/
+
+/*.lab8description {
+	position: absolute;
+	width: 400px;
+	margin: auto;
+	line-height: 1.5;
+	left: 900px;
+	top: 100px;
+}*/
+
+
+/*#lab9 {*/
+	/*position: relative;
+	width: 400px;
+	margin: auto;
+	line-height: 1.5;
+	left: 300px;*/
+	/*position: relative;*/
+	/*width: 400px;*/
+	/*margin: auto;*/
+	/*line-height: 1.5;*/
+	/*left: 50px;*/
+	/*bottom: 50px;*/
+/*}*/
 
 /*#lab7 {
 	position: absolute;
