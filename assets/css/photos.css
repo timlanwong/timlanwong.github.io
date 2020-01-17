@@ -1,11 +1,42 @@
-#title {
+/*#title {*/
 	/*text-align: center;*/
   /*vertical-align: text-top;*/
-  position: absolute;
+ /* position: absolute;
   top: 1px;
-  right: 40%;
+  right: 40%;*/
+#title {
+	font-size: 25px;
+    line-height : 0px;
 }
 
+#content {
+   position: absolute;
+   top: 20px; /* Top margin edge */
+   right: 0px; /* Right margin edge */
+   cursor: pointer;
+}
+
+#Projects {
+	position:absolute;
+	top: 10px;
+	right: 300px;
+}
+
+#Photos {
+	position: absolute;
+	top: 10px;
+	right: 100px;
+}
+
+#Photos:hover {
+	cursor: auto;
+}
+
+#Lead {
+	position: absolute;
+	top: 10px;
+	right: 200px;
+}
 
 #pictures {
     position: absolute;
@@ -16,6 +47,7 @@
     margin: auto;
     text-align: center;
 }
+
 #pictures img {
     width: 200px;
     margin: 0 10px;
