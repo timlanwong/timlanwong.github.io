@@ -27,21 +27,15 @@ body {
    cursor: pointer;
 }
 
-#Projects {
+#Courses {
 	position:absolute;
 	top: 10px;
-	right: 300px;
+	right: 100px;
 }
 
-#Projects:hover {
+#Courses:hover {
 	cursor: auto;
 }
-
-/*#Photos {
-	position: absolute;
-	top: 10px;
-	right: 100px;
-}*/
 
 #Lead {
 	position: absolute;
@@ -49,34 +43,11 @@ body {
 	right: 200px;
 }
 
-#Courses {
-	position:absolute;
+#Projects {
+	position: absolute;
 	top: 10px;
-	right: 100px;
+	right: 300px;
 }
-
-
-#Portfolio {
-	font-size: 20px;
-    line-height : 0px;
-}
-
-#Database {
-	font-size: 20px;
-    line-height : 0px;
-}
-
-
-#Baseball {
-	font-size: 20px;
-    line-height : 0px;
-}
-
-#Stat135 {
-	font-size: 20px;
-    line-height : 0px;
-}
-
 
 
 
