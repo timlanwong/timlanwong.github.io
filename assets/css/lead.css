@@ -14,6 +14,10 @@ body {
 	margin-right: 20px;
 	margin-left: 20px;
 }*/
+#modules {
+	margin-left: 100px;
+	margin-right: 200px;
+}
 
 #title {
 	font-size: 25px;
